@@ -103,7 +103,7 @@ const view = {
     const div = document.createElement('div')
     div.classList.add('completed')
     div.innerHTML = `
-      <p>Complete! But it it worth it???</p>
+      <p>Complete! But is it worth it???</p>
       <p>Score: ${model.score}</p>
       <p>You've tried: ${model.triedTimes} times</p>
     `
